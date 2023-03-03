@@ -1,1 +1,1 @@
-Lessons $ Homework of my practices on Java
+Lessons & Homework of my practices on Java
