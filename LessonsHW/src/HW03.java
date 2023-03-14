@@ -17,23 +17,23 @@ public class HW03 {
                 System.out.println("a == b");
             } else if (a < b) {
                 System.out.println("a < b");
-            } else {
+            } else if (a > b){
                 System.out.println("a > b");
             }
         }
 
         /*Задача №2
-        Необходимо создать две целочисленные переменные (a, b),
+        Необходимо создать две целочисленные переменные (x, y),
         присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
         maybe a and b are even - если сумма переменных четная
         some variable is odd - если сумма переменных нечетная
         */
 
         {
-            int a = 4;
-            int b = 10;
+            int x = 4;
+            int y = 10;
 
-            if ((a + b) % 2 == 0) {
+            if ((x + y) % 2 == 0) {
                 System.out.println("maybe a and b are even");
             } else {
                 System.out.println("some variable is odd");
@@ -68,7 +68,9 @@ public class HW03 {
 
          if (i >= 5 && i <= 40) {
              System.out.println("значение переменной между 5 и 40 включительно");
-         } else {
+         }
+
+         if  (i < 5 && i > 40){
              System.out.println("значение переменной меньше 5 или больше 40");
          }
     }
