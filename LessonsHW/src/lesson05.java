@@ -34,7 +34,7 @@ public class lesson05 {
 //        {
 //            int[] arr = {}; // Пустой массив
 //
-//            int[] arr1 = new int[100000]; // массив с количеством символов 100 тыс
+//            int[] arr1 = new int[1000]; // массив с количеством символов 1000
 //            System.out.println(Arrays.toString(arr1));
 //
 //        }
