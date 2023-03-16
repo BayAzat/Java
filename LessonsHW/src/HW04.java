@@ -50,6 +50,26 @@ public class HW04 {
                 System.out.println(i);
             }
         }
+/*Напишите Java-программу, которая выводит числа от 1 до 100.
+        Для чисел, кратных 3, выведите "Fizz" вместо числа,
+        а для чисел, кратных 5, выведите "Buzz".
+        Для чисел, кратных как 3, так и 5, выведите "FizzBuzz".
+         */
 
+//        {
+//            for (int i = 1; i <= 100; i++) {
+//
+//                if (i % 3 == 0 && i % 5 == 0) {
+//                    System.out.println(i + " FizzBuzz");
+//                } else if (i % 5 == 0) {
+//                    System.out.println(i + " Buzz");
+//                } else if (i % 3 == 0) {
+//                    System.out.println(i + " Fizz");
+//                } else {
+//                    System.out.println(i);
+//                }
+//            }
+//            System.out.println();
+//        }
     }
 }
